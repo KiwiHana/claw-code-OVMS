@@ -2,7 +2,13 @@ Ubuntu24.04
 
 ## 1. enable Qwen3.6-35B OVMS
 
-https://github.com/KiwiHana/ragflow-OVMS/blob/main/models/run-35b-docker.sh
+下载Qwen3.6-35B-A3B-int4-ov到~/models，并
+```
+mv Qwen3.6-35B-A3B-int4-ov Qwen3.6-35B-A3B-ov
+```
+下载地址：https://huggingface.co/OpenVINO/Qwen3.6-35B-A3B-int4-ov ，或者 https://www.modelscope.cn/models/OpenVINO/Qwen3.6-35B-A3B-int4-ov
+
+下载脚本并运行，https://github.com/KiwiHana/ragflow-OVMS/blob/main/models/run-35b-docker.sh
 ```
 run run-35b-docker.sh
 ```
