@@ -10,7 +10,8 @@ mv Qwen3.6-35B-A3B-int4-ov Qwen3.6-35B-A3B-ov
 
 下载脚本并运行，https://github.com/KiwiHana/ragflow-OVMS/blob/main/models/run-35b-docker.sh
 ```
-run run-35b-docker.sh
+sudo chmod -R 777 run-35b-docker.sh
+./run-35b-docker.sh
 ```
 
 
