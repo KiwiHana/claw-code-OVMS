@@ -17,6 +17,7 @@ sudo chmod -R 777 run-35b-docker.sh
 
 ## 2. Clone and build
 ```
+sudo apt install cargo
 git clone https://github.com/ultraworkers/claw-code
 cd claw-code/rust
 cargo build --workspace
