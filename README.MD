@@ -35,10 +35,41 @@ Finished `dev` profile [unoptimized + debuginfo] target(s) in 21m 38s
 ## 3. Start an interactive session
 ```
 export OPENAI_API_KEY="unused"
-export OPENAI_BASE_URL="http://127.0.0.1:8000/v3"
+export OPENAI_BASE_URL="http://127.0.0.1:8002/v3"
 
 ./target/debug/claw  --model Qwen3.6-35B-A3B-ov
 ```
+
+```
+██████╗██╗      █████╗ ██╗    ██╗
+██╔════╝██║     ██╔══██╗██║    ██║
+██║     ██║     ███████║██║ █╗ ██║
+██║     ██║     ██╔══██║██║███╗██║
+╚██████╗███████╗██║  ██║╚███╔███╔╝
+╚═════╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ Code 🦞
+
+Model            Qwen3.6-35B-A3B-ov
+Permissions      danger-full-access
+Branch           main
+Workspace        clean
+Directory        /home/intel/claw-code/rust
+Session          session-1784886903796-0
+Auto-save        .claw/sessions/6e0f58d71b0d2c09/session-1784886903796-0.jsonl
+
+Type /help for commands · /status for live context · /resume latest jumps back to the newest session · /diff then /commit to ship · Tab for workflow completions · Shift+Enter for newline
+Connected: Qwen3.6-35B-A3B-ov via openai
+> hi
+The user said “hi”. I should respond in a friendly way, acknowledging the greeting and offering to help with their Rust workspace.
+</think>Hi! 👋 How can I help you today? Whether it’s writing code, debugging, reviewing, or running tests in this Rust worksp✔ ✨ Done
+The user said "hi". I should respond in a friendly way, acknowledging the greeting and offering to help with their Rust workspace.
+</think>
+
+Hi! 👋 How can I help you today? Whether it's writing code, debugging, reviewing, or running tests in this Rust workspace — I'm here to help.
+
+>
+```
+
+
 
 ## 已知issue
 ```
