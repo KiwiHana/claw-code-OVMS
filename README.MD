@@ -29,7 +29,7 @@ git clone https://github.com/ultraworkers/claw-code
 cd claw-code/rust
 cargo build --workspace
 ```
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 21m 38s
+Finished `dev` profile [unoptimized + debuginfo] target(s) in 21m 38s
 编译结束后会打印类似这样的信息
 
 ## 3. Start an interactive session
